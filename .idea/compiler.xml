@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xuca_study" />
+        <module name="spring-cloud-eureka-order-client" />
+        <module name="spring-cloud-eureka-product" />
+        <module name="spring-cloud-eureka-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springCloud-Eureka" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
